@@ -47,9 +47,7 @@ Deployed via **Streamlit** and **FastAPI**, this project delivers accurate predi
 
 ## ⚙️ Project Structure
 
-```
-
-📁 AI-Fraud-Detection-CNN-RNN/
+```📁 AI-Fraud-Detection-CNN-RNN/
 │
 ├── 📄 app.py                   # Streamlit dashboard for predictions
 │
@@ -64,8 +62,7 @@ Deployed via **Streamlit** and **FastAPI**, this project delivers accurate predi
 │
 ├── 📄 requirements.txt         # Required Python libraries
 └── 📄 README.md                # Project documentation
-
-````
+```
 
 ---
 
