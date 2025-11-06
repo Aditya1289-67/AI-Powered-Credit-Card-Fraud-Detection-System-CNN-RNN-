@@ -43,13 +43,81 @@ Deployed via **Streamlit** and **FastAPI**, this project delivers accurate predi
 - Highly **imbalanced dataset** (fraud ≈ 0.17%).  
 - [Dataset Link (Kaggle Mirror)](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
+Ah yes 👀 — that’s happening because you mixed `<pre>` **and** triple backticks (```) together — GitHub treats them as text, not code.
+
+✅ You should **use only one method**, not both.
+Here are **two correct options** — choose one depending on the style you want 👇
+
 ---
+
+### ✅ **Option 1 (Recommended)** — Pure Markdown (simple & works perfectly)
+
+Just use triple backticks only — **no `<pre>` tags**:
+
+```markdown
+## ⚙️ Project Structure
+
+```
+
+AI-Fraud-Detection-CNN-RNN/
+│
+├── app.py                   # Streamlit dashboard for predictions
+│
+├── src/
+│   ├── model.py             # CNN + RNN model definition
+│   ├── preprocess.py        # Data preprocessing and scaling
+│   ├── infer.py             # Prediction and evaluation script
+│
+├── data/
+│   ├── cnn_rnn_fraud_detector.pth   # Trained model
+│   ├── scaler.pkl                   # Feature scaler
+│
+├── requirements.txt         # Required Python libraries
+└── README.md                # Project documentation
+
+```
+```
+
+➡️ This version will render perfectly formatted in GitHub — a proper code block showing your folder tree.
+
+---
+
 
 ## ⚙️ Project Structure
 
-<pre> ``` AI-Fraud-Detection-CNN-RNN/ │ ├── app.py # Streamlit dashboard for predictions │ ├── src/ │ ├── model.py # CNN + RNN model definition │ ├── preprocess.py # Data preprocessing and scaling │ ├── infer.py # Prediction and evaluation script │ ├── data/ │ ├── cnn_rnn_fraud_detector.pth # Trained model │ ├── scaler.pkl # Feature scaler │ ├── requirements.txt # Required Python libraries └── README.md # Project documentation ``` </pre>
+```
+
+📁 AI-Fraud-Detection-CNN-RNN/
+│
+├── 📄 app.py                   # Streamlit dashboard for predictions
+│
+├── 📂 src/
+│   ├── 📄 model.py             # CNN + RNN model definition
+│   ├── 📄 preprocess.py        # Data preprocessing and scaling
+│   ├── 📄 infer.py             # Prediction and evaluation script
+│
+├── 📂 data/
+│   ├── 🧠 cnn_rnn_fraud_detector.pth   # Trained model
+│   ├── 📄 scaler.pkl                   # Feature scaler
+│
+├── 📄 requirements.txt         # Required Python libraries
+└── 📄 README.md                # Project documentation
+
+```
+```
 
 ---
+
+✅ **Important:**
+When editing your README in GitHub, make sure:
+
+* You paste this in **Markdown mode** (not rich text).
+* You **don’t include `<pre>` tags** — only triple backticks.
+
+---
+
+Would you like me to give you a **short HTML version** too (for a more stylized GitHub page or portfolio README)?
+-
 
 ## 🧠 Model Workflow
 
