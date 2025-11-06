@@ -43,26 +43,47 @@ Deployed via **Streamlit** and **FastAPI**, this project delivers accurate predi
 - Highly **imbalanced dataset** (fraud ≈ 0.17%).  
 - [Dataset Link (Kaggle Mirror)](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
+Here’s your **updated project structure** (based exactly on your screenshot) — properly formatted for your `README.md` so it displays perfectly on GitHub 👇
+
 ---
 
+```markdown
 ## ⚙️ Project Structure
 
-```📁 AI-Fraud-Detection-CNN-RNN/
+```📁 Fraud-Detection/
 │
-├── 📄 app.py                   # Streamlit dashboard for predictions
+├── 📂 data/                             # Folder for dataset and model weights
 │
-├── 📂 src/
-│   ├── 📄 model.py             # CNN + RNN model definition
-│   ├── 📄 preprocess.py        # Data preprocessing and scaling
-│   ├── 📄 infer.py             # Prediction and evaluation script
+├── 📂 src/                              # Source code for model training and inference
+│   ├── 📂 models/                       # Model architecture definitions
+│   │   ├── 📄 **init**.py
+│   │   ├── 📄 cnn_rnn_model.py          # CNN + RNN hybrid model definition
+│   │
+│   ├── 📄 dataset.py                    # Dataset loading and splitting
+│   ├── 📄 infer.py                      # Fraud prediction and inference script
+│   ├── 📄 preprocess.py                 # Data preprocessing and feature scaling
+│   ├── 📄 Scalar_saver.py               # Saves/loads trained scalers for normalization
+│   ├── 📄 train.py                      # Model training script
+│   ├── 📄 utils.py                      # Helper functions for training and evaluation
 │
-├── 📂 data/
-│   ├── 🧠 cnn_rnn_fraud_detector.pth   # Trained model
-│   ├── 📄 scaler.pkl                   # Feature scaler
-│
-├── 📄 requirements.txt         # Required Python libraries
-└── 📄 README.md                # Project documentation
+├── 📄 app.py                            # Streamlit dashboard for fraud detection                        
+├── 📄 logo.png                          # App logo for Streamlit interface
+├── 📄 requirements.txt                  # Project dependencies
+├── 📄 test_transactions_100.csv         # Sample dataset with labels
+├── 📄 test_transactions_100_no_class.csv# Sample dataset without labels
+
 ```
+```
+
+---
+
+✅ **Notes:**
+
+* Folder name: `Fraud-Detection` (use this instead of “FRAUD DETECTION” for consistency).
+* Capitalization (like `Scalar_saver.py`) is preserved exactly as in your files.
+* Works perfectly in Markdown — copy-paste directly into your README.md.
+
+Would you like me to also include a **short 2-line explanation** for each folder (so recruiters know what each one does)?
 
 ---
 
