@@ -47,24 +47,7 @@ Deployed via **Streamlit** and **FastAPI**, this project delivers accurate predi
 
 ## ⚙️ Project Structure
 
-```
-
-AI-Fraud-Detection-CNN-RNN/
-│
-├── app.py                   # Streamlit dashboard for predictions
-├── src/
-│   ├── model.py             # CNN + RNN model definition
-│   ├── preprocess.py        # Data preprocessing and scaling
-│   ├── infer.py             # Prediction and evaluation script
-│
-├── data/
-│   ├── cnn_rnn_fraud_detector.pth   # Trained model
-│   ├── scaler.pkl                   # Feature scaler
-│
-├── requirements.txt         # Required Python libraries
-└── README.md                # Project documentation
-
-````
+<pre> ``` AI-Fraud-Detection-CNN-RNN/ │ ├── app.py # Streamlit dashboard for predictions │ ├── src/ │ ├── model.py # CNN + RNN model definition │ ├── preprocess.py # Data preprocessing and scaling │ ├── infer.py # Prediction and evaluation script │ ├── data/ │ ├── cnn_rnn_fraud_detector.pth # Trained model │ ├── scaler.pkl # Feature scaler │ ├── requirements.txt # Required Python libraries └── README.md # Project documentation ``` </pre>
 
 ---
 
