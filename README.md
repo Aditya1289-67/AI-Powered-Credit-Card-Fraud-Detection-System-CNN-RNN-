@@ -50,39 +50,6 @@ Here are **two correct options** — choose one depending on the style you want 
 
 ---
 
-### ✅ **Option 1 (Recommended)** — Pure Markdown (simple & works perfectly)
-
-Just use triple backticks only — **no `<pre>` tags**:
-
-```markdown
-## ⚙️ Project Structure
-
-```
-
-AI-Fraud-Detection-CNN-RNN/
-│
-├── app.py                   # Streamlit dashboard for predictions
-│
-├── src/
-│   ├── model.py             # CNN + RNN model definition
-│   ├── preprocess.py        # Data preprocessing and scaling
-│   ├── infer.py             # Prediction and evaluation script
-│
-├── data/
-│   ├── cnn_rnn_fraud_detector.pth   # Trained model
-│   ├── scaler.pkl                   # Feature scaler
-│
-├── requirements.txt         # Required Python libraries
-└── README.md                # Project documentation
-
-```
-```
-
-➡️ This version will render perfectly formatted in GitHub — a proper code block showing your folder tree.
-
----
-
-
 ## ⚙️ Project Structure
 
 ```
